@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Scene</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body class="bg-black overflow-x-hidden">
+    <!-- 1. Three.js Canvas - Background -->
+    <canvas class="canvas absolute inset-0 z-0" id="canvas"></canvas>
+
+    <!-- 2. First Screen - Text Overlay on Canvas -->
+    <div class="relative z-10 h-screen w-full pointer-events-none">
+      <header
+        class="absolute top-0 left-0 w-full z-20 px-8 py-6 flex items-center justify-between"
+      >
+        <div class="text-white font-bold text-2xl tracking-tight">
+          PharmaSphere
+        </div>
+
+        <nav class="flex gap-8 text-white/80">
+          <a href="#" class="hover:text-white transition-colors">Home</a>
+          <a href="#" class="hover:text-white transition-colors">Products</a>
+          <a href="#" class="hover:text-white transition-colors">About</a>
+          <a href="#" class="hover:text-white transition-colors">Contact</a>
+        </nav>
+      </header>
+      <!-- Main Centered Title -->
+      <div class="h-full flex items-center justify-center">
+        <h1
+          class="text-7xl md:text-8xl font-bold text-white tracking-tighter text-center"
+        >
+          Paracetamol
+        </h1>
+      </div>
+    </div>
+    <!-- Page2 -->
+    <div
+      class="w-full h-screen page2 bg-black flex items-start justify-center relative z-10"
+    >
+      <h1 class="text-white font-bold text-8xl tracking-tight">
+        About Paracetamol
+      </h1>
+      <div class="w-1/2 h-1/2">
+        <p class="text-white text-xl tracking-tight">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, animi
+          libero quia necessitatibus incidunt debitis autem et repellendus quos?
+          Nihil. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Facilis consequuntur vero, maiores non fuga minus quisquam nesciunt?
+          Ipsum quod optio, tempore nisi quis voluptates! Ipsum inventore beatae
+          repellendus similique saepe odio, et rerum? Nihil quo perferendis
+          tenetur, eveniet, veritatis sequi itaque explicabo odit mollitia
+          consectetur magnam ipsa sapiente distinctio reiciendis voluptate error
+          consequatur aut! Tenetur harum modi adipisci, dolorem repellendus,
+          minus accusamus quibusdam incidunt ad eveniet porro. Exercitationem
+          et, eaque vel expedita quia ducimus neque molestias fuga sint sunt
+          velit perferendis, dignissimos totam facere optio adipisci soluta
+          praesentium dolorum non aliquid reprehenderit. Saepe, voluptatibus
+          nobis. Eligendi recusandae in mollitia ad et! Fugit placeat sunt
+          cumque magni quos. Ut minus facilis officia cum eligendi quisquam,
+          deleniti voluptatibus iure soluta ipsa nostrum aperiam odit, quis
+          aliquam debitis dolorum consectetur? Dignissimos quos ratione fuga
+          neque animi at velit obcaecati nemo doloremque vero cumque dolores
+          nostrum sed quo amet aperiam sequi itaque, ex odit quae iste? Minima
+          repellendus animi repellat consequatur dolores iure ipsum ut unde
+          magnam explicabo? Autem totam nostrum odit dolore officia.
+        </p>
+      </div>
+    </div>
+    <script type="module" src="src/js/site1.js"></script>
+  </body>
+</html>

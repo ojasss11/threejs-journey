@@ -1,0 +1,29 @@
+/* ================================================ */
+/*   Tailwind CSS v4+   —   Vite Quick Setup       */
+/* ================================================ */
+
+/* Commands to run */
+
+/* 
+First 1. 
+npm install tailwindcss @tailwindcss/vite
+*/
+
+/* 
+2. Create vite.config.ts file and then paste the code
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+*/
+
+/* 
+3. main css file:
+@import "tailwindcss";
+*/
+@import "tailwindcss";
+
